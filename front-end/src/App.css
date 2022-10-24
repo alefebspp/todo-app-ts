@@ -1,0 +1,90 @@
+
+.app{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.todo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: #94FFFF;
+  padding: 5rem;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+.todos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.task-div-done{
+  display: flex;
+  align-items: center;
+  background-color: #008080;
+  border-radius: 1rem;
+  width: 25rem;  
+  height: 3rem;
+  padding: 1rem;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+  gap: 1rem;
+}
+
+.task-div{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #FFFFFFFF;
+  border-radius: 1rem;
+  width: 25rem;  
+  height: 3rem;
+  padding: 1rem;
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+.task-group{
+  display: flex;
+  gap: 1rem;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.todoInput{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.single-todo{
+  display: flex;
+  gap: 1rem;
+}
+
+.task-done{
+  text-decoration: line-through;
+  color: #98D7C2;
+  font-weight: 700;
+}
+
+.task{
+  color:teal;
+  font-weight: 700;
+}
