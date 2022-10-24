@@ -3,4 +3,4 @@
  - Esse é um aplicativo que simula uma lista de afazeres. Para a construção da aplicação, foram utilizadas as seguintes tecnologias:
   - Front-end: React + Typescript e Redux Toolkit para o gerenciamento de estado. Redux Thunk foi utilzado para requisições assíncronas juntamente com axios.
   - Back-end: Nodejs + Typescript. Express para construção da API e MongoDB como banco de dados.
-  - Além disso, foi utilizado o ChakraUI como bibliote de IU.
+  - Além disso, foi utilizado o ChakraUI como biblioteca de IU.
